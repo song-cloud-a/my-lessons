@@ -1,0 +1,11 @@
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+exclude = ["data", "saved_models"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

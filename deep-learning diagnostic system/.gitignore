@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local datasets and large model artifacts
+data/
+saved_models/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Generated experiment artifacts
+wrong_predictions/
+/results/
+gradcam_results/
+gradcam_comparison/
+*_results.csv
+/EfficientNet_report.txt
+/MaxViT_report.txt
+/ensemble_report.txt
+
+# Local configuration
+.env
+.env.*
+!.env.example
