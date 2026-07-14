@@ -5,7 +5,7 @@
 
 项目包含 EfficientNet-B0、MaxViT-Tiny、CNN、CNN-Transformer 和双模型概率融合实验，并使用 Grad-CAM 展示模型在预测过程中重点关注的图像区域。
 
-> **免责声明：本项目仅用于机器学习研究与教学，不能替代医生诊断，也不应直接用于临床医疗场景。**
+> **免责声明：本项目仅用于深度学习研究与教学，不能替代医生诊断，也不应直接用于临床医疗场景。**
 
 ![Grad-CAM 对比结果](assets/results/gradcam_comparison/sample_1.png)
 
